@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="keyword" content=" keywords">
+    <meta name="description" content="information about website"> 
+    <title>Document</title>
+</head>
+<body>
+    <h2> Registration Form</h2>
+    <p> For College admission </p>
+    <form autocomplete="off">
+
+        <fieldset>
+            <legend> Personal Details : </legend>
+            <label> Username : </label>
+            <input type="text" id="txtUsername" name="studname"  autofocus value="admin" readonly disabled ><br><br>
+    
+            <label> Email :</label>
+            <input type="email" id="email" name="studmail" autocomplete="on"><br><br>
+    
+            <label> Password :</label>
+            <input type="password" id="password" name="password" placeholder= "length should 8 - 16 character" size="30px" title="use atleast 1 uppercase, 1 lowercase letter, 1 number and special character"><br><br>
+
+            <label> Address : </label><br><br>
+
+            <textarea cols="40" rows="10">
+
+            </textarea>
+    
+        </fieldset><br><br>
+        
+        <label> DOB</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label> date and time</label>
+        <input type="datetime-local" id="timedate" name="datetime"><br><br>
+
+        <label> Choose time :</label>
+        <select name="batchtime" id="batchtime">
+         <option> Select --</option>
+         <option> 10am - 11am</option>
+         <option> 11am - 12pm</option>
+         <option selected> 12pm - 01pm</option>
+         <option> 01pm - 02pm</option>
+         <option> 02pm - 03pm</option>
+        </select><br><br>
+
+        <label> College Name :</label>
+        <input list="clgname">
+        <datalist id="clgname">
+            <option> xyz clg</option>
+            <option> abc clg</option>
+            <option> amd clg</option>
+            <option> sm clg</option>
+            <option> pqr clg</option>
+            <option> opq clg</option>
+
+        </datalist>
+        
+        <h3> Select Language: </h3>
+        <input type="checkbox" id="java" name="language" value="java" >
+        <label for="java"> Java Language</label><br>
+        <input type="checkbox" id="html" name="language" value="html">
+        <label for="html"> HTML Language</label><br>
+        <input type="checkbox" id="sql" name="language" value="sql" >
+        <label for="sql"> SQL Language</label><br>
+
+        <h3> Gender </h3>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> Female</label>
+        <br><br>
+
+        <input type="color"><br><br>
+
+        <label> Upload Document : </label>
+        <input type="file" id="doc" name="document" multiple><br><br>
+
+        <input type="image" src="../project b1/asseests/Beauty.jpg"><br><br>
+
+        <label> Month : </label>
+        <input type="month" id="month" name="month"><br><br>
+
+        <label> Course Duration(in months) :</label>
+         <input type="number" id="cdur" name="duration" min="3" max="12" step="3"><br><br>
+
+         <input type="range" min="2" max="10" step="2"  name="range" ><br><br>
+
+         <label> Search :</label>
+         <input type="search" placeholder="search "><br><br>  
+
+         <input type="tel" placeholder="mobile no" name="mobile" minlength="10" maxlength="10" pattern="[0-9]{10}"><br><br>
+
+         <input type="time"><br><br>
+
+         <input type="url"><br><br>
+
+         <input type="week"><br>
+         <input type="reset">
+
+       <br><br> <input type="submit">
+    </form>
+</body>
+</html>
+
+<!-- prefixsuffix
+txtUsername
+
+UTF-8   
+utf-16 
+utf-32  -->
